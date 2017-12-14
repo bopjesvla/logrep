@@ -1,0 +1,28 @@
+{
+  "name": "logrep",
+  "version": "1.0.0",
+  "main": "logrep.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "gen": "pegjs -o decode.out.js decode.pegjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bopjesvla/logrep.git"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN NONE",
+  "bugs": {
+    "url": "https://github.com/bopjesvla/logrep/issues"
+  },
+  "homepage": "https://github.com/bopjesvla/logrep#readme",
+  "description": "",
+  "dependencies": {
+    "hasbin": "^1.2.3",
+    "pegjs": "^0.10.0",
+    "pg": "^7.4.0",
+    "pg-logical-replication": "^1.0.3",
+    "pg-query-stream": "^1.1.1",
+    "rethinkdb": "^2.3.3"
+  }
+}
